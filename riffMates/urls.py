@@ -22,4 +22,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     #path('', include('home.urls')),
     path('credits/', home_views.credits, name='credits'),
+    path('about/', home_views.about, name='about'),
 ]
